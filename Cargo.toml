@@ -1,0 +1,15 @@
+[package]
+name = "backup_auditor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.5.3"
+jwalk = "0.6.0"
+sha2 = "0.10.2"
+getopts = "0.2"
+indicatif = {version = "0.16.2", features = ["rayon"]}
+num_cpus = "*"
+terminal_size = "*"
